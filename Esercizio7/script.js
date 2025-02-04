@@ -34,12 +34,13 @@ const dogs = [
 ];
 
 dogs.forEach((dog) => {
+  let {name, breed, image} = dog
   let card = document.createElement("div");
   card.className = "card";
   card.innerHTML = `
-    <h3>${dog.name}</h3>
-    <p>${dog.breed}</p>
-    <img src="${dog.image}" alt="${dog.name}" />
+    <h3>${name}</h3>
+    <p>${breed}</p>
+    <img src="${image}" alt="${name}" />
   `;
   document.body.appendChild(card);
 });
