@@ -2,6 +2,7 @@
 // Unire iscrittiOnline e iscrittiOffline usando lo spread operator
 // OUTPUT ATTESO: ['Gino', 'Pino', 'Roberto', 'Franca', 'Salvo', 'Maria']
 
+
 const iscrittiOnline = ['Gino', 'Pino', 'Roberto'];
 const iscrittiOffline = ['Franca', 'Salvo', 'Maria'];
 
